@@ -1,0 +1,133 @@
+h2{
+    color: blue;
+    text-align: center;
+}
+.parte2{
+    display: flex;    
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+
+.parte2 .uno{
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;     
+    text-align: center;        
+    border: 3px solid black; 
+    flex-grow: 1;      
+}
+
+.parte2 .dos{
+    background-color:deepskyblue;
+    width: 200px;
+    height: 200px;     
+    text-align: center;
+    border: 3px solid black; 
+    flex-grow: 1;
+}
+
+.parte2 .tres{
+    background-color:aquamarine;
+    width: 200px;
+    height: 200px;     
+    text-align: center;
+    border: 3px solid black; 
+    flex-grow: 1;
+}
+
+.parte2 .cuatro{
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;     
+    text-align: center;
+    border: 3px solid black;
+    flex-grow: 1;    
+    
+}
+
+.parte2 .cinco{
+    background-color:tan;
+    width: 200px;
+    height: 200px;     
+    text-align: center;
+    border: 3px solid black;
+    flex-grow: 2;
+}
+
+
+.parte3{
+    display: flex;    
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+
+.parte3 .uno{
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;     
+    text-align: center;        
+    border: 3px solid black; 
+    flex-grow: 1;
+    order: 7;      
+}
+
+.parte3 .dos{
+    background-color:deepskyblue;
+    width: 200px;
+    height: 200px;     
+    text-align: center;
+    border: 3px solid black; 
+    flex-grow: 1;
+    order: 6;
+}
+
+.parte3 .tres{
+    background-color:aquamarine;
+    width: 200px;
+    height: 200px;     
+    text-align: center;
+    border: 3px solid black; 
+    flex-grow: 1;
+    order: 5;
+}
+
+.parte3 .cuatro{
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;     
+    text-align: center;
+    border: 3px solid black;
+    flex-grow: 1;
+    order: 4;    
+    
+}
+
+.parte3 .cinco{
+    background-color:tan;
+    width: 200px;
+    height: 200px;     
+    text-align: center;
+    border: 3px solid black;
+    flex-grow: 1;
+    order: 3;
+}
+
+.parte3 .seis{
+    background-color:rgb(159, 140, 210);
+    width: 200px;
+    height: 200px;     
+    text-align: center;
+    border: 3px solid black;
+    flex-grow: 1;
+    order: 2;
+}
+
+.parte3 .siete{
+    background-color:rgb(84, 219, 21);
+    width: 200px;
+    height: 200px;     
+    text-align: center;
+    border: 3px solid black;
+    flex-grow: 1;
+    order: 1;
+}

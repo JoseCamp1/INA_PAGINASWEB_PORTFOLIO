@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: white;
+    background-color: #42368B;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+h2{
+    background-color: #435697;
+    color: white;
+}
+
+#color{
+    background-color: #B1C3FD;
+}
+
+span,#num_aleatorio{
+    color:deeppink
+}
+
+#salio_num{
+    background-color: none;
+}

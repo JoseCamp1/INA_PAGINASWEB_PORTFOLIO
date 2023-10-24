@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+
+}
+
+header{
+    color: blue;
+    text-align: center;
+}
+
+.parte1{
+    display: flex;    
+}
+
+.parte1 div{
+    width: 30%;
+    padding: 20px;
+}
+
+.parte1 p span{    
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,47 @@
+.header{
+    background-color: cadetblue;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid #000;
+}
+
+nav{    
+    background-color: cadetblue;
+    margin: 0 auto;
+    width: 200px;
+    border: 1px solid #000;    
+}
+
+nav li{
+    display: inline-block;
+           
+}
+
+nav li a{
+    color: aliceblue;
+}
+
+table{
+    width: 400px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;    
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+table th, table td{
+    border: 1px solid #000;
+}
+
+.fila1{
+    background-color: antiquewhite;    
+}
+
+th:hover{
+    background-color: #000;
+    color: white;
+}
+

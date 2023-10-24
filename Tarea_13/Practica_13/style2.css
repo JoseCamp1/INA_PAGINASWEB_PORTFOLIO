@@ -1,0 +1,30 @@
+section{
+    background-color: grey;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    padding: 40px;    
+    margin-top: 30px;    
+}
+
+.negro{
+    width: 100px;
+    height: 100px;
+    background-color: black;    
+}
+
+.blanco{
+     width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.blanco:hover{
+    background-color: red;
+}
+
+.negro:hover{
+    background-color: yellow;
+}

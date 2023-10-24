@@ -1,0 +1,142 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+}
+  
+nav {
+    background-color: blue;
+    display: flex;
+}
+  
+section {
+    background-color:red;
+    float: left;
+    width: 70%;
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div article img{
+    width: 100%;
+
+}
+
+section div article{
+    flex: 35%;
+}
+  
+aside {
+    background-color: purple;
+    float: right;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+aside i{
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+  
+footer {
+    background-color: green;
+    width: 100%;
+    float: bottom;    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+body{
+    padding: 0 20px;
+}
+
+section {
+    width: 60%;
+}
+  
+aside {
+    width: 40%;
+}
+}
+
+@media only screen and (max-width: 992px) {
+section {
+    width: 50%;
+}
+    
+aside {
+    width: 50%;
+}
+    
+article {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 576px) {
+header {
+    text-align: center;
+}
+  
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+  
+h1, h2 {
+    text-align: center;
+}
+  
+section, aside {
+    width: 100%;
+}
+  
+article {
+    display: block;
+    width: 100%;
+}
+  
+.article-image {
+    width: 100%;
+}
+  
+.article-text {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 400px) {
+.article-image {
+    width: 100%;
+    padding: 0;
+}
+  
+.article-text {
+    padding: 10px;
+}
+}
+
+

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jose Campos Chaves">
+    <meta name="descrition" content="Tarea 6 html"> 
+    <title>Solicitud de Empleo</title>
+</head>
+<body>
+    <header>
+        <h1 align="center">Solicitud</h1>
+    </header>
+    <nav>
+        
+    </nav>
+    <section>
+        <form action="mailto:joacachavez20@gmail.com" method="post" enctype="multipart/form-data">
+            <table align="center" width="auto" border="1" cellspacing="10" cellpadding="10">
+                <tr>
+                    <td colspan="6" bgcolor="#00994C">
+                        <h1 align="center">Solicitud de Empleo</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" bgcolor="#99FFFF">Nombre</td>
+                    <td colspan="2" bgcolor="#FFCCCC">
+                        <input type="text" name="nombre" value="" size="40" maxlength="40">
+                    </td>
+                    <td colspan="1" bgcolor="#99FFFF">Apellidos</td>
+                    <td colspan="2" bgcolor="#FFCCCC">
+                        <input type="text" name="apellidos" value="" size="40" maxlength="40">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" bgcolor="#99FFFF">Direccion</td>
+                    <td colspan="5" bgcolor="#FFCCCC">
+                        <input type="text" name="Direccion" value="" size="100" maxlength="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" bgcolor="#99FFFF">Telefonos</td>
+                    <td colspan="1" bgcolor="#FFCCCC">
+                        <input type="tel" name="telefonos" value="" size="40" maxlength="40">
+                    </td>
+                    <td colspan="1" bgcolor="#99FFFF">Fecha de Nacimiento</td>
+                    <td colspan="1" bgcolor="#FFCCCC">
+                        <input type="date" name="fechadenacimiento" value="" size="40" maxlength="40">
+                    </td>
+                    <td colspan="1" bgcolor="#99FFFF">Edad</td>
+                    <td colspan="1" bgcolor="#FFCCCC">
+                        <input type="number" name="edad" value="" size="40" maxlength="40">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" bgcolor="#99FFFF">Pais</td>
+                    <td colspan="1" bgcolor="#FFCCCC">
+                    <!-- lista desplegable/combo -->
+                        <select name="pais" id="pais">
+                            <option value="guatemala">Guatemala</option>
+                            <option value="belice">Belice</option>
+                            <option value="honduras">Honduras</option>
+                            <option value="elsalvador">El Salvador</option>
+                            <option value="nicaragua">Nicaragua</option>
+                            <option value="costarica">CostaRica</option>
+                            <option value="panama">Panama</option>
+                        </select>
+                    </td>
+                    <td colspan="1" bgcolor="#99FFFF">Nivel Academico</td>
+                    <td colspan="1" bgcolor="#FFCCCC">
+                    <!-- lista desplegable/combo -->
+                        <select name="nivelacademico" id="nivelacademico">
+                            <option value="primaria">Primaria</option>
+                            <option value="secundaria">Secundaria</option>
+                            <option value="estudiosuniversitarios">Estudios Universitarios</option>
+                            <option value="posgrados">Posgrados</option>
+                            
+                        </select>
+                    </td> 
+                    <td colspan="1" bgcolor="#99FFFF">Estado Civil</td>
+                    <td colspan="1" bgcolor="#FFCCCC">
+                    <!-- lista desplegable/combo -->
+                        <select name="estadocivil" id="estadocivil">
+                            <option value="unionlibre">Union Libre</option>
+                            <option value="soltero(a)">Soltero(a)</option>
+                            <option value="divorciado(a)">Divorciado(a)</option>
+                            <option value="casado(a)">Casado(a)</option>
+                            <option value="viudo(a)">Viudo(a)</option>
+                            
+                        </select>
+                    </td>                                                  
+                </tr>
+                <tr>
+                    <td colspan="1" bgcolor="#99FFFF">Pasatiempos</td>
+                    <td colspan="2" bgcolor="#FFCCCC">
+                        <!-- casillas de verficicacion -->
+                        <input type="checkbox" name="estudiar" value="estudiar">Estudiar<br>
+                        <input type="checkbox" name="familia" value="familia">Familia <br>
+                        <input type="checkbox" name="salirapasear" value="salirapasear">Salir a Pasear<br>
+                        <input type="checkbox" name="capacitarse" value="capacitarse">Capacitarse<br>
+                        <input type="checkbox" name="tiempolibre" value="tiempolibre">Tiempo Libre<br> 
+                        
+                    </td>  
+                        <td colspan="1" bgcolor="#99FFFF">Horario</td>
+                        <td colspan="2" bgcolor="#FFCCCC">
+                            <!-- botones de opcion -->
+                            <input type="radio" name="horario">09:00 am a 10:00 am <br>
+                            <input type="radio" name="horario">10:00 am a 01:00 am <br>
+                            <input type="radio" name="horario">02:00 pm a 04:00 pm <br>
+                            <input type="radio" name="horario">05:00 pm a 06:00 pm <br>
+                            <input type="radio" name="horario">08:00 pm a 10:00 pm <br>
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" bgcolor="#99FFFF">
+                        <label for="experiencialaboral">
+                            Experiencia Laboral
+                        </label>
+                    </td>
+                    <td colspan="2" bgcolor="#FFCCCC">
+                        <textarea name="experiencialaboral" id="experiencialaboral" cols="50" rows="20"></textarea>
+                    </td>
+                    <td colspan="1" bgcolor="#99FFFF">
+                        <label for="comentarioadicional">
+                            Comentario Adicional
+                        </label>
+                    </td>
+                    <td colspan="2" bgcolor="#FFCCCC">
+                        <textarea name="comentarioadicional" id="comentarioadicional" cols="50" rows="20"></textarea>
+                    </td>
+                </tr>                
+                <tr>
+                    <td colspan="3" bgcolor="#99FFFF">
+                        <input type="reset" value="Limpiar Formulario">
+                    </td>
+                    <td colspan="3" bgcolor="#99FFFF">
+                        <input type="submit" value="Enviar Datos">
+                    </td>
+                </tr>
+            </table>
+        </form>    
+    </section>     
+    <footer align="center">       
+        Derechos Reservados &copy; INA 2022-2023
+    </footer>
+</body>
+</html>

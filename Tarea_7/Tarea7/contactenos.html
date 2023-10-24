@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jose Campos Chaves">
+    <meta name="description" content="Tarea 7 html">
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="icon" href="image/favicon-32x32.png" sizes="32x32" type="image/png">
+    <title>Contactenos</title>
+</head>
+<body background="image/100fondosdepantalla.webp">
+    
+    <nav>
+        <table>
+            <th>
+                <a href="index.html">
+                    <p>Principal</p>
+                </a>
+            </th>
+            <th>
+                <a href="tabla.html">
+                    <p>Tabla</p>
+                </a>
+            </th>
+            <th>
+                <a href="teoria.html">
+                    <p>Teoria</p>
+                </a>
+            </th>
+            <th>
+                <a href="mapa.html">
+                    <p>Mapa</p>
+                </a>
+            </th>
+            <th>
+                <a href="imagenes.html">
+                    <p>Imagenes</p>
+                </a>
+            </th>
+            <th>
+                <a href="contactenos.html">
+                    <p>Contactenos</p>
+                </a>
+            </th>
+        </table>
+    </nav>    
+    <section>
+        <form action="mailto:joacachaves20@gmail.com" method="post" enctype="multipart/form-data" target="_blank">
+            <table align="center" width="auto" border="1" cellspacing="10" cellpadding="10">
+                <tr>
+                    <td colspan="2">
+                        <h1 align="center">Contactenos</h1>
+                    </td>
+                </tr>
+                <tr>                    
+                    <td colspan="1">
+                        <label for="nombre">Nombre:</label>                        
+                        <input type="text" name="nombre" value="" size="40" maxlength="40" placeholder="Ej: Jose" required>
+                    </td> 
+                    <td colspan="1">
+                        <input type="checkbox" name="viveencr" value="viveencr">Vive en CR?<br>
+                    </td>                   
+                </tr>
+                <tr>                    
+                    <td colspan="1">
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" name="apellidos" value="" size="40" maxlength="40" placeholder="Ej: Campos Chaves" required>
+                    </td>
+                    <td colspan="1">
+                        <!-- botones de opcion -->
+                        <input type="radio" name="gam">En el GAM <br>
+                        <input type="radio" name="gam">Fuera del GAM <br>                        
+                    </td>
+                </tr>
+                <tr>                    
+                    <td colspan="1">
+                        <label for="email">Correo Electronico:</label>
+                        <input type="email" name="email" value="" size="40" maxlength="40" placeholder="Ej: joscam20@gmail.com" required>
+                    </td>
+                    <td colspan="1">
+                        <!-- lista desplegable/combo -->
+                            <select name="provincia" id="provincia">
+                                <option value="sanjose">San Jose</option>
+                                <option value="alajuela">Alajuela</option>
+                                <option value="heredia">Heredia</option>
+                                <option value="cartago">Cartago</option>
+                                <option value="guanacaste">Guanacaste</option>
+                                <option value="limon">Limon</option>
+                                <option value="puntarenas">Puntarenas</option>
+                            </select>
+                    </td>
+                </tr>
+                <tr>                                       
+                    <td colspan="1">
+                        <label for="telefonos">Telefono:</label>
+                        <input type="tel" name="telefonos" value="" size="40" maxlength="40" placeholder="Ej: 88990849" required>
+                    </td>
+                    <td colspan="1">
+                        Fecha de Nacimiento
+                    </td>                                                             
+                </tr>             
+                <tr>                
+                    <td colspan="1">
+                        <label for="comentarioadicional">Comentario:</label>                        
+                    </td>
+                    <td colspan="1">
+                        <input type="date" name="fechadenacimiento" value="" size="40" maxlength="40">
+                    </td>                    
+                </tr>
+                <tr>
+                    <td colspan="1">                        
+                        <textarea name="comentario" id="comentario" cols="60" rows="20" placeholder="Ej: Me gustaria mas informacion sobre un producto..." required></textarea>
+                    </td>
+                    <td colspan="1">
+                        Ajunte una Foto
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="1" >
+                        <input type="submit" value="Enviar Datos">
+                    </td>
+                    <td colspan="1">
+                        <label for="adjunto"></label>
+                        <input type="file" name="adjunto">
+                    </td>
+                </tr>                
+                <tr>
+                    <td colspan="1" >
+                        <input type="reset" value="Limpiar Formulario">
+                    </td>
+                    <td colspan="1">
+                        <label for="edad">Años Cumplidos</label>
+                        <input type="number" name="edad" value="" size="40" maxlength="40">
+                    </td>                    
+                </tr>
+            </table>
+        </form>
+    </section>        
+    
+    <br><br><br><br>    
+    <footer align="center">
+        <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>            
+        <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.youtube.com/" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+        </a><br>       
+        Derechos Reservados &copy; INA 2022-2023
+    </footer>      
+</body>
+</html>

@@ -1,0 +1,57 @@
+:root{
+    --color-header_footer: #222222;
+    --color-circulo : #b604fd;
+    --color-letras: #f5f0f0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Cabecera {
+    background-color: var(--color-header_footer);
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+#pie {
+    background-color: var(--color-header_footer);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+div{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    
+}
+
+#reloj,#reloj_reversa,#fecha {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px 5px auto 5px;
+    color: var(--color-letras);
+    background-color: var(--color-circulo);
+    border-radius: 50%;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    
+}
+

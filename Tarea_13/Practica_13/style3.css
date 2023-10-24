@@ -1,0 +1,50 @@
+section{     
+    margin-top: 20px;   
+    background-color: gray;
+    outline-offset: -10px;
+    outline: 1px solid white;             
+}
+
+img{
+    width: 310px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 25px;
+    outline-offset: -10px;
+    outline: 1px solid white;    
+}
+
+p{    
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+figure{
+    position: relative;
+}
+
+.texto{
+    display: none;    
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 1%;
+    overflow: auto;
+}
+
+.efecto:hover{ 
+    filter: sepia(50%);    
+}
+
+.efecto:hover .texto{
+    display: block;
+}
